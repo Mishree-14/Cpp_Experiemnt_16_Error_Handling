@@ -22,5 +22,13 @@ int main(){
 
 //OUTPUT:
 
-//Enter values of numbers 1 and 2: 3 5
-//Answer: 0.6
+/*
+Enter values of numbers 1 and 2: 3 5
+Answer: 0.6
+
+Enter values of numbers 1 and 2: 5 0
+ERROR: Division by 0    
+*/    
+    
+    
+    
