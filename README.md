@@ -79,6 +79,39 @@ Allows multiple types of errors to be handled in one program.
 | Division Program | If denominator is zero | float          | n1 = 10, n2 = 0 | ERROR: Division by 0 | Mathematical error check |
 | Age Validation   | If age < 18            | int            | age = 15        | ERROR: Underage (15) | Input validation         |
 
+## Algorithms
+### Algorithm for Division Program (Division by Zero Check)
+
+Start.
+
+Input two numbers: numerator and denominator.
+
+Begin a try block.
+
+If denominator = 0 → throw an exception.
+
+Else → perform division and display the result.
+
+In the catch block, handle the exception by displaying "ERROR: Division by 0".
+
+Stop.
+
+### Algorithm for Age Validation Program
+
+Start.
+
+Input age.
+
+Begin a try block.
+
+If age < 18 → throw an exception (underage).
+
+Else → display valid age and approval message.
+
+In the catch block, handle the exception by displaying "ERROR: Underage".
+
+Stop.
+
 ## PROGRAM DESCRIPTIONS
 ### Division Program (Division by Zero Check)
 
